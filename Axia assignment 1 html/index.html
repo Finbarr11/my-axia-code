@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Using classes. You declare the class outside the html body-->
+    <style>
+       p{
+        text-transform:capitalize;    
+        }
+
+        .paragraph1{
+            font-size: 20px;
+            color:goldenrod;
+        }
+        .paragraph2{
+            font-size: 20px;
+            color:red;
+        }
+        .paragraph3{
+            font-size: 20px;
+            color:brown;
+        }
+
+        .headingprimary{
+            color:chartreuse;
+            font-size: 40px;
+        }
+        .headingsecondary{
+            color:indigo;
+            font-size: 20px;
+        }
+        /*call id's*/
+        #head2{
+            text-transform: uppercase;
+        }
+
+        .heading2{
+            font-size:36px;
+            font-weight: 100;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Hello, fellow Axians</h1>
+    <!--testing my hands on comments-->
+    <p style="font-size: 25px;" ><i>I am currently enjoying this class</i></p>
+    <button>submit</button>
+    <button style="color: brown;">sign in</button>
+    <p><button>cancel</button>
+
+        <!--I want to use an anchor tag here-->
+        <a href="google.com">This link takes you to google</a>
+
+        <!--work with images-->
+        <p><img src="/ID.jpg" alt="image not available" width="500px" height="300px"></p>
+        <!--using external image-->
+        <img src="https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQ8peSVztyVBX6Rp1DhEAFaNBhrr_jSs4zX4Vqro3qukRhfRqF5rJi-EqE3XpqOMmQWRrst8ingopQW7kU" alt="De Bruyne" width="200px" height="300px">
+        
+        <!--using ordered and unordered list-->
+        <ol type="a">
+            <li>rice</li>
+            <li>beans</li>
+            <li>yam</li>
+        </ol>
+
+        <ol type="i">
+            <li>rice</li>
+            <li>beans</li>
+            <li>yam</li>
+        </ol>
+
+        <ul>
+            <li>rice</li>
+            <li>beans</li>
+            <li>yam</li>
+        </ul>
+
+        <!--table heading and decker-->
+        <table>
+            <tr><!--This is for  the top row heading-->
+                <th>alphabet</th>
+                <th>animal</th>
+                <th>place</th>
+                <th>things</th>
+            </tr>
+            <tr><!--this is for the data beneath the heading-->
+                <td>A</td>
+                <td>Cheetah</td>
+                <td>Lagos</td>
+                <td>Laptop</td>   
+            </tr>
+            <tr><!--this is for the data beneath the heading-->
+                <td>B</td>
+                <td>Tiger</td>
+                <td>Ogun</td>
+                <td>Phone</td>   
+            </tr>
+        </table>
+
+        <!--Working with form and button tags-->
+        <p></p>
+        <form>
+            <label for="name">Fullname:</label>
+            <input type="text" name="name" value="" placeholder="What is your name"><br>
+        
+            <h5>What is your age range?</h5>
+            <!--Kindly note, I intentionally made the line "<input type="radio" name="age" value="teenager">"
+                 come before "</label for="teenager">12-18</label>". This can be arranged vice versa. I only 
+                 wanted it displaying in a different way on the internet-->
+            <input type="radio" name="age" value="teenager">
+            <label for="teenager">12-18</label>
+
+            <p></p><input type="radio" name="age" value="adult">
+            <label for="adult">19-60</label>
+            
+            <p></p>
+            <input type="radio" name="age" value="old">
+            <label for="old">61-120</label>
+           
+
+            <br>
+            <h5>What states have you visited?</h5>
+            <label for="bauchi">Bauchi</label>
+            <input type="checkbox" name="states" value="bauchi">
+            <label for="lagos">Lagos</label>
+            <input type="checkbox" name="states" value="lagos">
+            <label for="ogun">Ogun</label>
+            <input type="checkbox" name="states" value="ogun">
+            <label for="edo">Edo</label>
+            <input type="checkbox" name="states" value="edo">
+            
+            <p><h5>Tell us about you.</h5></p>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <button>submit</button>
+        </form>
+
+        <!--Using classes and IDs-->
+        <p class="paragraph1">I wish to declare 3 different paragraphs using classes. Let's see how it is going to work out</p>
+
+        <p class="paragraph2">I wish to declare 3 different paragraphs using classes. Let's see how it is going to work out</p>
+
+        <p class="paragraph3">I wish to declare 3 different paragraphs using classes. Let's see how it is going to work out</p>
+    
+        <h2 class="headingprimary" id="head1">I wish to try another class style</h2>
+        <h2 class="headingprimary" id="head2">I wish to try another class style</h2>
+        <h2 class="headingsecondary">I wish to try another class style</h2>
+
+        <!--Using a div. A div can be written in different ways-->
+        <h1 class="heading1">hello</h1>
+        <div class="heading2">hello</div>
+
+        <section class="section1">
+            
+        </section>
+
+    </body>
+</html>

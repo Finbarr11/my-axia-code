@@ -1,0 +1,94 @@
+.topic{
+    color: rgb(28, 28, 143);
+    text-align: center;
+}
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.food1{
+    color:rgb(184, 0, 0);
+    border:2px solid brown;
+    padding: 20px;
+    border-radius: 10px;
+    align-content:center;
+}
+.food2{
+    color:rgb(184, 0, 0);
+    border:2px solid rgb(236, 213, 0);
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    align-content:center;
+}
+.food3{
+    color:rgb(184, 0, 0);
+    border:2px solid rgb(0, 61, 117);
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    align-content:center;
+}
+.food4{
+    color:rgb(184, 0, 0);
+    border:2px solid rgb(255, 1, 191);
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    align-content:center;
+}
+h2{
+    text-align: center;
+}
+p{
+    color: black;
+}
+ol{
+    color: black;
+}
+.button1{
+   background-color: rgb(0, 47, 117);
+   border: none;
+   color: white;
+   padding: 8px 20px;
+   border-radius: 8px;
+   text-align: center;
+   text-decoration:none;
+   display: inline-block;
+   font-size: 12px;
+}
+    .button1:hover{
+        background-color: rgb(134, 134, 134);
+        border: none;
+        color: black;
+        padding: 8px 20px;
+        border-radius: 8px;
+        text-align: center;
+        text-decoration:none;
+        display: inline-block;
+        font-size: 12px;
+    }
+.button2{
+    background-color: rgb(0, 47, 117);
+    border: none;
+    color: white;
+    width: 120px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 12px;
+}
+    .button2:hover{
+        background-color: rgb(134, 134, 134);
+        border: none;
+        color: black;
+        padding: 8px 20px;
+        border-radius: 8px;
+        text-align: center;
+        text-decoration:none;
+        display: inline-block;
+        font-size: 12px;
+         }
+     
