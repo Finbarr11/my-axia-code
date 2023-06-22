@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    padding-bottom: 100px;
+}
+.main-container, .main2-container, .main3-container, .main4-container, .main5-container, .z-items{
+    width: 80%;
+    margin: 30px auto;
+    height: 500px;
+    border: 2px solid black;
+}
+.main-container{
+    background-image: url("/images/romanticchipping.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*background image and box shadow*/
+.main2-container{
+    background-image: url("/images/goldenhoursimage.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: left;
+    box-shadow: 8px 8px 10px;
+    color: red;
+}
+.main3-container{
+    background-image: linear-gradient(to right, cyan, magenta, blue);
+
+}
+.main4-container{
+    opacity: .5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main4-container:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+/*CSS overflow and Z-index*/
+.main5-container{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    overflow: scroll;
+    /*overflow-y: scroll;
+    overflow-x: scroll;*/
+}
+.z-items{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.items1, .items2, .items3{
+    position: absolute;
+    height: 150px;
+    width: 200px;
+}
+.items1{
+    background-color: blue;
+    top: 50px;
+    left: 40%;
+    z-index: 50;
+}
+.items2{
+    background-color: red;
+    top: 100px;
+    z-index: 15;
+    
+}
+.items3{
+    background-color: green;
+    top: 150px;
+    left: 40%;
+    z-index: 20;
+}
+/* text shadow*/
+.texts{
+    font-size: 40px;
+    font-weight: 800px;
+    text-align: center;
+    text-shadow: 6px 6px 8px blue;
+    color: black;
+    border: 1px solid black;
+    border-width: 10px 5px 20px 1px;
+}
+.example{
+    width: 350px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 3px solid black;
+    background-image: linear-gradient(to bottom right, red, blue);
+}

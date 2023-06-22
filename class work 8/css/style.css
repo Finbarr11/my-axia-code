@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+.container{
+    height: 500px;
+    width: 80%;
+    margin: 60px auto;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation-name: moves;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+/*
+.items1{
+    transform: translateY(70px)
+}
+
+.items2{
+    transform: rotate(40deg);
+}
+
+.items3{
+    transform: skewX(20deg);
+}
+.items3:hover{
+    transform: scale(1.5);
+    transition: transform 1s ease-out;
+    background-color: brown;
+}*/
+
+
+@keyframes moves {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        background-color: cyan;
+        transform: translate(20px);
+    }
+    50%{
+        transform: translateY(50px);
+        background-color: red;
+    }
+    75%{
+        transform: translateY(70px);
+        background-color: gold;
+    }
+    100%{
+        transform: translateX(0);
+        background-color: blue;
+    }
+}
+
+/* make web responsive using media query*/
+@media only screen and (max-width: 968px) {
+    .container{
+        width: 95%;
+        padding: 30px;
+    }
+}
+@media only screen and (max-width: 740px) {
+    .container{
+        flex-direction: column;
+        height: 700px;
+    }
+    .item{
+        width: 150px;
+        height: 150px;
+    }
+}
